@@ -1,7 +1,5 @@
-// ====================
-// SIGNUP FORM
-// ====================
 
+// SIGNUP FORM
 const signupForm = document.getElementById("signupForm");
 
 if (signupForm) {
@@ -151,9 +149,8 @@ if (signupForm) {
 
 }
 
-// ====================
 // SIGNIN FORM
-// ====================
+
 
 const signinForm = document.getElementById("signinForm");
 
@@ -211,7 +208,7 @@ if (signinForm) {
 
                 alert("Login Successful!");
 
-                window.location.href = "travelapp.html";
+                window.location.href = "index.html";
 
             } else {
 
